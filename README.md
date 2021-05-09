@@ -49,5 +49,5 @@ API
 - [ ] Send Message (Create Room)
 - [ ] See Room
 - [ ] Computed Fields
-- [x] See (Read) Message
-- [x] Realtime Messages
+- [ ] See (Read) Message
+- [ ] Realtime Messages
