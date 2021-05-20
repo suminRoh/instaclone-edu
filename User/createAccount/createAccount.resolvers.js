@@ -1,4 +1,4 @@
-import client from "../client";
+import client from "../../client";
 import bcrypt from "bcrypt";
 
 export default{
@@ -37,30 +37,6 @@ export default{
             }catch(e){
                 return e;
             }
-        }
+        },
     },
-    Query:{
-        seeProfile: async(_,args)=>{
-            //변수(username) 받은거
-            // const {
-            //     firstName,
-            //     lastName,
-            //     username,
-            //     email,
-            //     password
-            // } = args;
-            /* username find
-                username --> Unique
-                return await client.user.findFirst({
-                    where:{
-                        OR:[
-                            {username},
-                            {email}
-                        ]
-                    }
-                });
-
-            */
-        }
-    }
 }
