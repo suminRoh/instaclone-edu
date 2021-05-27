@@ -2,7 +2,7 @@ import {gql} from "apollo-server";
 
 export default gql`
     type editProfileResult {
-        ok:String!
+        ok:Boolean!
         error:String
     }
     type Mutation{
@@ -11,6 +11,8 @@ export default gql`
             lastName:String
             username:String
             email:String
+            bio:String
+            avatar: Upload
             password:String
         ):editProfileResult!
     }
