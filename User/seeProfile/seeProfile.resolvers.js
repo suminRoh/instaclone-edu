@@ -8,17 +8,10 @@ export default{
                 where:{
                     username
                 },
-                //include --> 배열 데이터 보이기
-               /*
                 include:{
-                    추가할 필드1: true,
-                    추가할 필드2: true,
-                    .
-                    .
-                    . 
+                    followers:true,
+                    following:true
                 }
-                이런식으로 작성
-                */ 
             });
         }
     }
