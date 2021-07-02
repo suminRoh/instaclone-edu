@@ -4,17 +4,17 @@ API
 
 ## User:
 
-- [ ] Create Account
-- [ ] See Profile
-- [ ] Login
-- [ ] Edit Profile
-- [ ] Change Avatar
-- [ ] Follow User
-- [ ] Unfollow User
-- [ ] See Followers w/ pagination
-- [ ] See Following w/ pagination
-- [ ] Computed Fields
-- [ ] Search Users
+- [x] Create Account
+- [x] See Profile
+- x] Login
+- [x] Edit Profile
+- [x] Change Avatar
+- [x] Follow User
+- [x] Unfollow User
+- [x] See Followers w/ pagination
+- [x] See Following w/ pagination
+- [x] Computed Fields
+- [x] Search Users
 
 ## Photos
 
