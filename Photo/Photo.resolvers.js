@@ -11,7 +11,8 @@ export default {
                     id
                 }
             }
-        }})
+        }}),
+        likes:({id})=>client.like.count({where:{photoId:id}}),
     },
     Hashtag:{
         totalPhotos:({hashtag})=>client.photo.count({
