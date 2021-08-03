@@ -25,10 +25,16 @@ export const protectedResolver = (ourResolver) => (
     info
 ) => {
     if(!context.loggedInUser){
-        return {
-            ok:false,
-            error:"로그인 하셈"
-        };
+        const query=info.operation.operation==="query";
+        if(query){
+            return null;
+        }
+        else{
+            return {
+                ok:false,
+                error:"로그인 하셈"
+            };
+        }
     }
     return ourResolver(root,args,context,info);
 }
